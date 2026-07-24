@@ -4,14 +4,14 @@ if age >= 18:
     print("You are an adult")
 
 # if-else statement
-temperature = 25
+temperature = 31
 if temperature > 30:
     print("It's hot outside")
 else:
     print("It's not too hot")
 
 # if-elif-else statement
-score = 85
+score = 99
 if score >= 90:
     print("Grade: A")
 elif score >= 80:
