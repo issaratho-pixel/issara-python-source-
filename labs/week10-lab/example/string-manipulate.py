@@ -321,7 +321,7 @@ print(f"'5' in string.digits: {'5' in string.digits}")
 print("\n=== PROGRAMMING EXAMPLES ===")
 
 # Example 1: Alphabet triangle pattern
-print("1. Alphabet Triangle Pattern:")
+print("1. Alphabet Triangle Pattern:") 
 for i in range(1, 7):
     for j in range(i):
         print(chr(65 + j), end='')
