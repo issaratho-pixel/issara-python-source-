@@ -39,7 +39,7 @@ def create_user_profile(username, age=18, premium=False):
         user_type = "Premium"
     return f"{username} (age: {age}) - {user_type}"
 
-create_user_profile("Issra", 20)
+create_user_profile("Issra Thong in", 20)
 create_user_profile("Teerapat")
 create_user_profile("Issra", 20)
 pass
