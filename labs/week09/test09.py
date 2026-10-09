@@ -23,7 +23,7 @@ except ZeroDivisionError:
        print("ไม่สามารถใส่ 0 ได้ค้าบเฮียน")
 
 except Exception:
-       print("ค้าบเฮียน")
+       print("ทำไรค้าบเฮียน")
 
 else:
     print("ถูกต้องค้าบเฮียนน")
