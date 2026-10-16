@@ -18,6 +18,7 @@ Below 18.5: Underweight
 
 """
 
+<<<<<<< HEAD
 weight = float(input("Enter weight: (kg) "))
 height = float(input("Enter height: (m) "))
 
@@ -33,6 +34,8 @@ elif 25.0 <= BMI <= 29.9:
     print("Overweight")
 else:
     print("Obese")
+=======
+>>>>>>> upstream/main
 
 """
 Question 2: Currency Converter (20 points)
@@ -45,6 +48,7 @@ Ask for the amount to convert
 Use exchange rate: 1 USD = 35.5 THB
 Display result with 2 decimal places
 Show the calculation formula used
+<<<<<<< HEAD
 """
 
 rate = 35.5
@@ -63,3 +67,6 @@ elif choice == "2":
     Amount = float(input("Enter amount in USD:"))
     THB = Amount * rate
     print(f"THB = {THB:.2f} THB") 
+=======
+"""
+>>>>>>> upstream/main

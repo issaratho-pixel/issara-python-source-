@@ -40,6 +40,7 @@ print("Welcome to Python programming!")
 print("Python is fun!")
 
 # 
+<<<<<<< HEAD
 print("I am learning to code!")
 
 """
@@ -48,3 +49,6 @@ print("I am learning to code!")
     asdasd
     asd
 """
+=======
+print("I am learning to code!")
+>>>>>>> upstream/main
