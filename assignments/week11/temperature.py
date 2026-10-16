@@ -22,7 +22,6 @@ Highest: 28 C
 Lowest: 19 C
 
 """
-<<<<<<< HEAD
 
 def get_temperatures():
  
@@ -38,13 +37,10 @@ def analyze_temp(temp_list):
 def display_analysis(avg, high , low ):
  
     print("Temperatures Analysis for thr Week:")
-    print("Average: % If C" avg)
-    print("high: % If C" high)
-    print("low: %  If C" low)
+    print("Average: %.1f C" % avg)
+    print("high: %.1f C" % high)
+    print("low: %.1f C" % low)
  
 temp = get_temperatures()
 result = analyze_temp(temp)
 display_analysis(result[0],result[1],result[2])
-=======
-    
->>>>>>> upstream/main
